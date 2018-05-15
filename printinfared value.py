@@ -11,7 +11,7 @@ chunk = 1024
 #open a wav format music
 #sys.path
 #sys.path.append(r"C:/Users/Evan_young computer/george/wowfolder/wow.wav","rb");
-f = wave.open(r"/home/pi/Raspberry-Pi-Audio-Test/wowfolder/wow.wav,"rb")
+f = wave.open(r"/home/pi/Raspberry-Pi-Audio-Test/wowfolder/wow.wav","rb")
 #instantiate PyAudio
 p = pyaudio.PyAudio()
 #open stream
